@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:5000/api/notes
+method: GET
+headers:
+  Authorization: "{{bearer_token_0hua}}"
+order: 2000
