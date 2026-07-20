@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:5000/api/notes/1
+method: PUT
+headers:
+  Content-Type: application/json
+  Authorization: Bearer YOUR_ACCESS_TOKEN
+body:
+  type: text
+  content: |-
+    {
+      "title": "Título actualizado",
+      "content": "Contenido actualizado de la nota"
+    }
+order: 4000
