@@ -1,0 +1,12 @@
+Flask
+Flask-JWT-Extended
+Flask-CORS
+Flask-RESTful
+PyJWT
+bcrypt
+python-dotenv
+email-validator
+pytest
+pytest-flask
+flasgger
+Flask-Caching
