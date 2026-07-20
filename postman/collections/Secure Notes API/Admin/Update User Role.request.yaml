@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:5000/api/admin/users/2/role
+method: PATCH
+headers:
+  Content-Type: application/json
+  Authorization: "{{bearer_token_0sxp}}"
+body:
+  type: text
+  content: |-
+    {
+      "role": "admin"
+    }
+order: 2000
