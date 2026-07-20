@@ -1,0 +1,21 @@
+{
+  "tests/test_notes_api.py::SecureNotesApiTests::test_authorization_bearer_format_invalid": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_case_insensitive_duplicate_title": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_create_note_authenticated": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_create_note_duplicate_title_fails": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_delete_note_success": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_delete_other_user_note_fails": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_get_note_not_found_fails": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_get_note_success": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_get_other_user_note_fails": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_list_notes_returns_only_user_notes": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_login_success": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_logout_success": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_note_content_validation": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_note_title_length_validation": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_pagination": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_refresh_token_success": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_register_duplicate_email_fails": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_register_new_user_success": true,
+  "tests/test_notes_api.py::SecureNotesApiTests::test_update_note_success": true
+}
