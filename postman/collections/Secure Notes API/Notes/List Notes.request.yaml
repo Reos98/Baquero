@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:5000/api/notes?page=1&limit=10
+method: GET
+headers:
+  Authorization: Bearer YOUR_ACCESS_TOKEN
+queryParams:
+  page: "1"
+  limit: "10"
+order: 2000
