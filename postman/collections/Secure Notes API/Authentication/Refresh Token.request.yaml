@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:5000/api/auth/refresh
+method: POST
+headers:
+  Authorization: Bearer YOUR_REFRESH_TOKEN
+order: 3000
